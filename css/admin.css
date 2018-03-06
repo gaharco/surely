@@ -1,0 +1,37 @@
+/* Admin CSS */
+
+/* Post widget style */
+
+.slider-options,
+input[type=radio].presentation-featured-opt,
+input[type=radio].presentation-slider-opt,
+input[type=radio].presentation-featured-opt + label,
+input[type=radio].presentation-slider-opt + label {
+	display: none;
+}
+
+#header-widget-full-width input[type=radio].presentation-featured-opt,
+#header-widget-full-width input[type=radio].presentation-slider-opt,
+#footer-widget-full-width input[type=radio].presentation-featured-opt,
+#footer-widget-full-width input[type=radio].presentation-slider-opt,
+#header-widget-full-width input[type=radio].presentation-featured-opt + label,
+#header-widget-full-width input[type=radio].presentation-slider-opt + label,
+#footer-widget-full-width input[type=radio].presentation-featured-opt + label,
+#footer-widget-full-width input[type=radio].presentation-slider-opt + label,
+ul[id*="-widget-full-width"] input[type=radio].presentation-featured-opt,
+ul[id*="-widget-full-width"] input[type=radio].presentation-slider-opt,
+ul[id*="-widget-full-width"] input[type=radio].presentation-featured-opt,
+ul[id*="-widget-full-width"] input[type=radio].presentation-slider-opt,
+ul[id*="-widget-full-width"] input[type=radio].presentation-featured-opt + label,
+ul[id*="-widget-full-width"] input[type=radio].presentation-slider-opt + label,
+ul[id*="-widget-full-width"] input[type=radio].presentation-featured-opt + label,
+ul[id*="-widget-full-width"] input[type=radio].presentation-slider-opt + label {
+	display: inline-block;
+}
+#header-widget-full-width .presentation-slider-opt:checked ~ .slider-options,
+#footer-widget-full-width .presentation-slider-opt:checked ~ .slider-options,
+ul[id*="-widget-full-width"] .presentation-slider-opt:checked ~ .slider-options,
+ul[id*="-widget-full-width"] .presentation-slider-opt:checked ~ .slider-options {
+	display: block;
+	margin-left: 2em;
+} 

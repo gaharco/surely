@@ -1,0 +1,112 @@
+/**
+ * Stylesheet for Jetpack's modules
+ *
+ */
+
+ /* Sharedaddy */
+.sharedaddy {
+	text-align: center;
+}
+
+.site-main div.sharedaddy h3.sd-title {
+	font-family: "IM Fell French Canon", Georgia, serif;
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1.625;
+	font-weight: 400;
+	font-style: italic;
+	display: none;
+}
+
+.site-main div.sharedaddy h3.sd-title:before {
+	display: none;
+}
+
+.sharedaddy ul {
+	margin-left: 0;
+}
+
+.sharedaddy ul li {
+	list-style: none;
+	display: inline-block;
+	border-bottom: 2px solid #000000;
+}
+
+.sharedaddy ul li a {
+	color: #000000;
+	padding: 8px 15px;
+	border-left: 1px solid #dddddd;
+	display: block;
+}
+
+.sharedaddy ul li a:hover,
+.sharedaddy ul li a:focus {
+	color: #ff0000;
+}
+
+.sharedaddy ul li:first-child a {
+	border-left: none;
+}
+
+.sharedaddy ul .share-end {
+	display: none;
+}
+
+#jp-relatedposts .jp-relatedposts-items-visual .jp-relatedposts-post {
+	opacity: 1;
+}
+
+.site-main #jp-relatedposts .jp-relatedposts-items {
+	margin: 0 -15px;
+	text-align: center;
+}
+
+.site-main #jp-relatedposts .jp-relatedposts-items-visual .jp-relatedposts-post {
+	padding: 0 15px; 
+}
+
+.site-main #jp-relatedposts .jp-relatedposts-items-visual h4.jp-relatedposts-post-title {
+	font-family: "IM Fell French Canon", Georgia, serif;
+	font-size: 16px;
+	font-size: 1rem;
+	margin-bottom: 5px;
+	letter-spacing: 0;
+}
+
+.site-main #jp-relatedposts .jp-relatedposts-items-visual h4.jp-relatedposts-post-excerpt {
+	margin-bottom: 5px;
+}
+
+.site-main #jp-relatedposts img {
+	margin-bottom: 20px;
+}
+
+.site-main #jp-relatedposts h3.jp-relatedposts-headline {
+	width: 100%;
+}
+
+.site-main #jp-relatedposts h3.jp-relatedposts-headline em {
+	font-weight: normal;
+	font-style: italic;
+}
+
+.site-main #jp-relatedposts h3.jp-relatedposts-headline em::before {
+	display: none;
+}
+
+#jp-relatedposts .jp-relatedposts-items .jp-relatedposts-post .jp-relatedposts-post-title a {
+	color: #000000;
+}
+
+#jp-relatedposts .jp-relatedposts-items .jp-relatedposts-post .jp-relatedposts-post-title a:hover,
+#jp-relatedposts .jp-relatedposts-items .jp-relatedposts-post .jp-relatedposts-post-title a:focus {
+	color: #ff0000;
+}
+
+.form-submit + .comment-subscription-form {
+	margin-top: 28px;
+}
+
+.comment-form > .comment-subscription-form {
+	margin-bottom: 0;
+}
